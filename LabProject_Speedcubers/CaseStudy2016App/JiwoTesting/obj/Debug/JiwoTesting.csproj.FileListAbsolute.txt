@@ -1,0 +1,6 @@
+C:\iswlab\LabProject_Speedcubers\CaseStudy2016App\JiwoTesting\bin\Debug\JiwoTesting.exe.config
+C:\iswlab\LabProject_Speedcubers\CaseStudy2016App\JiwoTesting\bin\Debug\JiwoTesting.exe
+C:\iswlab\LabProject_Speedcubers\CaseStudy2016App\JiwoTesting\bin\Debug\JiwoTesting.pdb
+C:\iswlab\LabProject_Speedcubers\CaseStudy2016App\JiwoTesting\obj\Debug\JiwoTesting.csprojResolveAssemblyReference.cache
+C:\iswlab\LabProject_Speedcubers\CaseStudy2016App\JiwoTesting\obj\Debug\JiwoTesting.exe
+C:\iswlab\LabProject_Speedcubers\CaseStudy2016App\JiwoTesting\obj\Debug\JiwoTesting.pdb
