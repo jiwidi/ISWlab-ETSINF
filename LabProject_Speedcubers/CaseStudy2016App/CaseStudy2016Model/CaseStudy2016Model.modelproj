@@ -26,6 +26,27 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="Personnel administrator.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Personnel administrator.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Personnel administrator.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="UseCaseAdministrator.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UseCaseAdministrator.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UseCaseAdministrator.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="UseCaseCustomer.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UseCaseCustomer.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UseCaseCustomer.usecasediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\CaseStudy2016Model.uml">
       <SubType>Content</SubType>

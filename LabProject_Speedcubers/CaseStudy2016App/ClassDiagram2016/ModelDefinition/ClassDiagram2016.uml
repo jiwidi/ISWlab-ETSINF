@@ -32,6 +32,7 @@
             sourceEndRoleName="Course"
             targetEndRoleName="Office"
             isLeaf="false"
+            name="takes place in"
             isAbstract="false">
             <classMoniker
               Id="e0855261-86af-46ac-a9af-225ad93354f7"
@@ -84,6 +85,7 @@
             sourceEndRoleName="Course"
             targetEndRoleName="Teacher"
             isLeaf="false"
+            name="teached by"
             isAbstract="false">
             <classMoniker
               Id="81504a5f-1a51-4321-a2bb-63d9c92e0020"
@@ -123,6 +125,7 @@
             sourceEndRoleName="Course"
             targetEndRoleName="Session"
             isLeaf="false"
+            name="divided in"
             isAbstract="false">
             <classMoniker
               Id="d852f19a-91aa-4437-b89b-72e139d2fc0d"
@@ -167,7 +170,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="7e3b9f08-14e0-46f8-9122-b1906a367635"
             name="Description"
@@ -178,7 +188,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="c0b28fb3-e44c-4026-84dc-92187fc377c6"
             name="Start Date"
@@ -189,7 +206,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="b3d34f16-6fce-409f-9442-cdefc9f5c9a3"
             name="Quota"
@@ -200,7 +224,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="d0fbf1a5-3f9c-4b34-aa29-95bf916580b6"
             name="Total Price"
@@ -211,7 +242,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -233,7 +271,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -255,7 +300,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="a61ce89d-be9c-4bda-99d4-afa9fd63396e"
             name="Type"
@@ -266,7 +318,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="281e46b0-208c-4bbd-8ccf-4c423f427a74"
             name="Name"
@@ -277,7 +336,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="2b207bc2-cde0-4a63-9e81-140a3244208b"
             name="Capacity"
@@ -288,7 +354,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -301,20 +374,20 @@
         isActiveClass="false">
         <targetEnds>
           <association
-            Id="1e625811-f44c-49b1-b83f-197a3bbf4b78"
+            Id="b9ac5579-f6a8-47e7-9ad0-85035c956278"
             isDerived="false"
             sourceEndRoleName="Student"
-            targetEndRoleName="Course"
+            targetEndRoleName="Subscription"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
-              Id="af455825-5586-4b8c-b177-b6db1c820119"
-              LastKnownName="Course"
+              Id="ad54c194-89c6-47a0-8fa9-7872b0c75efa"
+              LastKnownName="Subscription"
               LastKnownLocation="ClassDiagram2016.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="64bd8131-0489-4996-a0ff-2dbbc5059bf5"
+                  Id="93e7afb2-8365-4745-9529-5f567916803a"
                   name="Student"
                   isLeaf="false"
                   isStatic="false"
@@ -323,12 +396,25 @@
                   isDerivedUnion="false"
                   aggregation="None"
                   isComposite="false"
-                  isNavigableOwned="false" />
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f606f4c8-0007-4772-81fc-7424b11a7a41"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f3802213-7436-472d-9639-2f2f1e6b59f5"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="a6df068a-074c-4fea-b555-0a5a05e21169"
-                  name="Course"
+                  Id="cd828d9c-b36b-4bd5-8269-5b0e9eff40fa"
+                  name="Subscription"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -351,7 +437,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="a9544763-ae55-4622-8228-477cbf01ca98"
             name="Address"
@@ -362,7 +455,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="b7a4043b-ecbc-42fa-8c16-c7782f21846f"
             name="Phone Number"
@@ -373,7 +473,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="28ccf91b-7ba6-48be-8dce-e800bc4992cb"
             name="Bank account"
@@ -384,7 +491,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -406,7 +520,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -428,8 +549,153 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ad54c194-89c6-47a0-8fa9-7872b0c75efa"
+        name="Subscription"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="902e1cf3-f819-406d-8b4e-67d8c3d85f63"
+            isDerived="false"
+            sourceEndRoleName="Subscription"
+            targetEndRoleName="Course"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="af455825-5586-4b8c-b177-b6db1c820119"
+              LastKnownName="Course"
+              LastKnownLocation="ClassDiagram2016.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c48a847a-f271-47e2-9770-d23caa13ce19"
+                  name="Subscription"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3b9b27e4-0a34-4aa8-a565-5c0cc3f28a32"
+                  name="Course"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a6e31e1f-dcb8-4620-95a5-76c626a5b28c"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d2d889ab-3925-4ed8-b081-c460576dc2db"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="37ad32f5-b49a-4811-abc0-6403a9e49908"
+            name="totalPrice"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="17799f79-8326-4b08-9d10-f8f07b539d97"
+            name="type"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bc8b0806-6e27-4bd0-be17-2a6f6117ff26"
+            name="amount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ClassDiagram2016.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="22f15eaa-02cf-48f4-9b8b-3e9f4b1df80b"
+        name="ExternalCustomer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="51442a9e-ef1c-4825-a1b5-c5ca0445219f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="81504a5f-1a51-4321-a2bb-63d9c92e0020"
+              LastKnownName="Teacher"
+              LastKnownLocation="ClassDiagram2016.uml" />
+          </generalization>
+        </generalsInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>
