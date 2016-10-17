@@ -55,7 +55,7 @@
                     <literalString
                       Id="335ef511-878f-4d82-8d16-49ece83ecc35"
                       name="Lower"
-                      value="n" />
+                      value="1" />
                   </lowerValueInternal>
                   <upperValueInternal>
                     <literalString
@@ -155,7 +155,20 @@
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
-                  isComposite="false" />
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7c6bacb2-29b7-42b9-998f-09cb04a8b531"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="18f61cc2-03ec-48d3-ae1e-cad7c873d93b"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
@@ -401,7 +414,7 @@
                     <literalString
                       Id="f606f4c8-0007-4772-81fc-7424b11a7a41"
                       name="Lower"
-                      value="n" />
+                      value="1" />
                   </lowerValueInternal>
                   <upperValueInternal>
                     <literalString
@@ -422,6 +435,59 @@
                   isDerivedUnion="false"
                   aggregation="None"
                   isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="38ea0d76-18f4-4743-a557-5318b0ddc000"
+            isDerived="false"
+            sourceEndRoleName="Student"
+            targetEndRoleName="Session"
+            isLeaf="false"
+            name="assists"
+            isAbstract="false">
+            <classMoniker
+              Id="d852f19a-91aa-4437-b89b-72e139d2fc0d"
+              LastKnownName="Session"
+              LastKnownLocation="ClassDiagram2016.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f628defa-2a67-42e3-9eab-3b755d963ea7"
+                  name="Student"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="57b6d7a4-761b-4866-a8f7-1cc56d022bfa"
+                  name="Session"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="94c9505a-21bc-476a-83e6-d9779ac6ea51"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c3e97361-48f5-484f-a465-20c088a9acdb"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
@@ -608,7 +674,7 @@
                     <literalString
                       Id="a6e31e1f-dcb8-4620-95a5-76c626a5b28c"
                       name="Lower"
-                      value="n" />
+                      value="1" />
                   </lowerValueInternal>
                   <upperValueInternal>
                     <literalString
@@ -624,43 +690,7 @@
         <ownedAttributesInternal>
           <property
             Id="37ad32f5-b49a-4811-abc0-6403a9e49908"
-            name="totalPrice"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <primitiveTypeMoniker
-                Id="220a3521-e091-4221-bae9-3ef9018e845c"
-                LastKnownName="Integer"
-                LastKnownLocation="ClassDiagram2016.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="17799f79-8326-4b08-9d10-f8f07b539d97"
-            name="type"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <primitiveTypeMoniker
-                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                LastKnownName="String"
-                LastKnownLocation="ClassDiagram2016.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="bc8b0806-6e27-4bd0-be17-2a6f6117ff26"
-            name="amount"
+            name="Price"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -696,6 +726,38 @@
               LastKnownLocation="ClassDiagram2016.uml" />
           </generalization>
         </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="421efa62-a8f6-4be3-a4b1-74c9775ffc9c"
+        name="MonthlySubscription"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="8307b1fd-e355-4975-ad48-6f650cf3b853"
+            isSubstitutable="false">
+            <classMoniker
+              Id="ad54c194-89c6-47a0-8fa9-7872b0c75efa"
+              LastKnownName="Subscription"
+              LastKnownLocation="ClassDiagram2016.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="d4d9e661-d351-468d-a97f-a9848c51fe97"
+            name="Nº of payments"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>
