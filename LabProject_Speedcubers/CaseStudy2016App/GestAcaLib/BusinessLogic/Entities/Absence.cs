@@ -18,7 +18,7 @@ namespace GestAcaLib.Entities
         {
             this.Id = Id;
             this.Date = date;
-         
+            
         }
 
     }

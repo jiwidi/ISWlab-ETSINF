@@ -8,24 +8,24 @@ namespace GestAcaLib.Entities
 {
     public partial class TaughtCourse
     {
-        DateTime endTime, startDateTime;
-        int id, quota, sessionDuration, totalPrice;
-        String teachingDay;
+     
 
-        public TaughtCourse() { }
+        public TaughtCourse() {
+            this.Enrollments = new List<Enrollment>();
+        }
 
-        public TaughtCourse(int id, int quota, int sessionDuration, int totalPrice, DateTime endTime, DateTime startDateTime, string teachingDay,Course co )
+        public TaughtCourse(int id, int quota, int sessionDuration, int totalPrice, DateTime endTime, DateTime startDateTime, string teachingDay,Course co)
         {
-            this.id = id;
-            this.quota = quota;
-            this.sessionDuration = sessionDuration;
-            this.totalPrice = totalPrice;
-            this.endTime = endTime;
-            this.startDateTime = startDateTime;
-            this.teachingDay = teachingDay;
+            this.Id = id;
+            this.Quota = quota;
+            this.SessionDuration = sessionDuration;
+            this.TotalPrice = totalPrice;
+            this.EndTime = endTime;
+            this.StartDateTime = startDateTime;
+            this.TeachingDay = teachingDay;
             this.Enrollments = new List<Enrollment>();
             this.Course = co;
-            //faltan las listas
+            
         }
     }
 }

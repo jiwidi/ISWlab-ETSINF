@@ -12,7 +12,7 @@ namespace GestAcaLib.Entities
         {
             Absences = new List<Absence>();
         }
-        public Enrollment(DateTime enrollment,DateTime cancellation, Boolean unique, int Id,Student estu)
+        public Enrollment(DateTime enrollment,DateTime cancellation, Boolean unique, int Id,Student estu,TaughtCourse curso)
         {
             this.Id = Id;
             this.UniquePayment = unique;
@@ -20,6 +20,7 @@ namespace GestAcaLib.Entities
             this.CancellationDate = cancellation;
             Absences = new List<Absence>();
             this.Student = estu;
+            this.TaughtCourse = TaughtCourse;
         }
 
     }
