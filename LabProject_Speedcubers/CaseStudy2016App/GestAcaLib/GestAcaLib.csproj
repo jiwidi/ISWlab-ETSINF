@@ -62,6 +62,9 @@
     <Compile Include="BusinessLogic\Entities\TaughtCourse.cs" />
     <Compile Include="BusinessLogic\Entities\Teacher.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Persistence\AbsenceDAOImp.cs" />
+    <Compile Include="Persistence\CourseDAOImp.cs" />
+    <Compile Include="Persistence\EnrollmentDAOImp.cs" />
     <Compile Include="Persistence\Entities\Absence.cs" />
     <Compile Include="Persistence\Entities\Course.cs" />
     <Compile Include="Persistence\Entities\Enrollment.cs" />
@@ -70,6 +73,20 @@
     <Compile Include="Persistence\Entities\Student.cs" />
     <Compile Include="Persistence\Entities\TaughtCourse.cs" />
     <Compile Include="Persistence\Entities\Teacher.cs" />
+    <Compile Include="Persistence\GestAcaDAL.cs" />
+    <Compile Include="Persistence\IAbsenceDAO.cs" />
+    <Compile Include="Persistence\ICouseDAO.cs" />
+    <Compile Include="Persistence\IEnrollmentDAO.cs" />
+    <Compile Include="Persistence\IOfficeDAO.cs" />
+    <Compile Include="Persistence\IPersonDAO.cs" />
+    <Compile Include="Persistence\IStudentDAO.cs" />
+    <Compile Include="Persistence\ITaughtCourseDAO.cs" />
+    <Compile Include="Persistence\ITeacherDAO.cs" />
+    <Compile Include="Persistence\OfficeDAOImp.cs" />
+    <Compile Include="Persistence\PersonDAOImp.cs" />
+    <Compile Include="Persistence\StudentDAOImp.cs" />
+    <Compile Include="Persistence\TaughtCourseDAOImp.cs" />
+    <Compile Include="Persistence\TeacherDAOImp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
